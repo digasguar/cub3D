@@ -6,7 +6,7 @@
 /*   By: dgasco-g <dgasco-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/08 13:06:58 by oiahidal          #+#    #+#             */
-/*   Updated: 2025/11/25 16:02:28 by dgasco-g         ###   ########.fr       */
+/*   Updated: 2026/02/02 18:20:06 by dgasco-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,6 @@
 
 void	clean_data(t_cube *data)
 {
-	int	i;
-
-	i = 0;
 	free_textures(data);
 	if (data->hooks)
 		free(data->hooks);
